@@ -1,0 +1,22 @@
+{
+  "name": "acala-solidity-challenge",
+  "version": "1.0.0",
+  "description": "",
+  "main": "truffle-config.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "ganache-cli && truffle test"
+  },
+  "author": "Jan Turk",
+  "license": "MIT",
+  "devDependencies": {
+    "@openzeppelin/contracts-upgradeable": "^4.2.0",
+    "@openzeppelin/truffle-upgrades": "^1.8.0",
+    "@truffle/hdwallet-provider": "^1.4.3",
+    "chai": "^4.3.4",
+    "truffle": "^5.4.3",
+    "truffle-plugin-verify": "^0.5.11"
+  }
+}
